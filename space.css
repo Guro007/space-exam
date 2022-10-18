@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(images8/assets/home/background-home-desktop.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.container{
+    width: 1365px;
+    height: 85px;
+    box-sizing: border-box;
+}
+
+.head{
+    padding: 50px;
+    display: inline-block;
+}
+
+hr{
+    display: inline-block;
+    width: 419px;
+    margin-bottom: 22px;
+    margin-left: 15px;
+    color: white;
+    opacity: 50%;
+}
+
+.list{
+    float: right;
+    display: flex;
+    margin-top: 35px;
+    background: hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(6rem);
+    border-radius: 5px 0px 0px 5px ;
+    position: relative;
+    height: 80px;
+    width: 777px;
+    line-height: 50px;
+    opacity: 50%;
+    
+}
+
+
+
+
+.list a{
+    font-size: medium;
+    margin: 0.8rem;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-left: 50px
+}
+
+.list a:nth-child(1){
+    border-bottom: 1px solid white;
+    
+}
+
+
+.list span{
+    color: rgb(247, 248, 253);
+    font-weight: bold;
+    font-size: medium;
+    
+       
+}   
+
+.list a:nth-child(1):hover{
+    transform: scale(120%);
+}
+.list a:nth-child(2):hover{
+    transform: scale(120%);
+}
+.list a:nth-child(3):hover{
+    transform: scale(120%);
+}
+.list a:nth-child(4):hover{
+    transform: scale(120%);
+    
+}
+
+
+
+/*content2*/
+
+
+
+
+
+.content2{
+   width: 100%;
+   display: flex;
+   height: 100%;;
+}
+
+.content{
+    padding: 79px;
+    color: white;
+    
+}
+
+
+.content h1{
+    padding-top: 3rem;
+    font-size: 90px;
+    font-weight: 100;
+}
+
+.content h4{
+    color:rgb(187, 190, 192);
+    font-size: 30px;
+    font-weight:lighter;
+}
+.content p{
+    padding-top: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 100;
+    color: rgb(187, 190, 192);
+}
+
+.ex h4{
+    color: rgb(25, 25, 75);
+    font-size: 30px;
+    font-weight: 100;
+    
+}
+
+.ex{
+    position: absolute;
+    height: auto;
+    top: 40%;
+    text-align: center;
+}
+
+.circle {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 180px;
+    margin-left: 22rem;
+    animation-name: circle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes circle {
+     0%{
+        opacity: 30%;
+     }
+     50%{
+        opacity: 100%;
+     }
+     100%{
+        opacity: 30%;
+     }
+}
